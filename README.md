@@ -1,3 +1,6 @@
 # Kaggle
 
-En este repositorio recojo los notebooks de las competiciones y prácticas de Kaggle. Añado también comentarios de mi trabajo para explicar mejor los pasos seguidos y los obstáculos encontrados.
+This repository is used to share my notebooks part of the Kaggle competitions I have joined. I'll try to add clear comments ans explanations of my work.
+
+My Kaggle account is: https://www.kaggle.com/pdenieves
+
