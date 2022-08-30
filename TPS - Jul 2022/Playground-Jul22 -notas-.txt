@@ -1,0 +1,60 @@
+
+1. Loading the dataset
+-------------------------------------
+[Estos pasos son los basicos para cualquier kernel]
+
+# Set the working directory
+os.chdir("C:\\_Kaggle\\Playground - Jul 2022\\data")
+
+# Load the data set
+data_df = pd.read_csv('data.csv', sep=',', encoding='UTF-8')
+
+# Check loaded data
+print(f'Dimensions {data_df.shape}')
+data_df.head()
+
+
+
+2. Checking the data
+-------------------------------------
+[Primeras revisiones para confinmar la carga de los datos, enteder qué datos tenemos y decidor el plan de acción (feature engineering, modificación del data set, nulos, ..]
+[El último punto del bloque 1 (check loaded data9 debería venir aquí.]
+
+# Empty values an datatypes.
+data_df.info()
+
+# gráficos y correlación
+
+
+
+3. Estandarización
+-------------------------------------
+[Todos los features deben tener la misma distribución. Si no, el impacto de algunas caractarísticas será desproporcionado respecto a las demás]
+
+#¿Como se comprueba si están estandarizados? Pues si la media es 0 y la desviación típica es 1 (con un margen de error pequeño)
+
+# Los features se estandarizan con: StandardScaler class
+
+
+
+
+4. Determinar el número de clusters
+-------------------------------------
+[Para agrupar los puntos, hay que ver primero el número de clusters]
+
+#Elbow y Silhouette
+
+
+
+5. Generar los clusters
+-------------------------------------
+[Ya que tenemos el número de clusters, pues los generamos]
+
+#¿Con qué método, dbscan, optincs, kmeans, ...? 
+
+
+
+6. Generar el fichero de salida
+-------------------------------------
+[]
+
